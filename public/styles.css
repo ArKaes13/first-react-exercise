@@ -12,6 +12,7 @@ html {
 body {
     background: #eee;
     padding: 0 1.6rem;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
 /* Header Section */
@@ -65,7 +66,8 @@ header h1 {
     background-color: transparent;
 }
 
-form {
+/* Create Note Area */
+form.create-note {
     position: relative;
     width: 48rem;
     margin: 3rem auto 2rem auto;
@@ -75,8 +77,8 @@ form {
     box-shadow: 0 .1rem .5rem #8a8989
 }
 
-form input,
-form textarea {
+form.create-note input,
+form.create-note textarea {
     width: 100%;
     border: none;
     padding: .4rem;
@@ -86,12 +88,12 @@ form textarea {
     resize: none;
 }
 
-form button {
+form.create-note button {
     position: absolute;
     right: 1.8rem;
     bottom: -1.8rem;
-    background: #f5ba13;
-    color: #fff;
+    background-color: #f5ba13;
+    color: #ffffff;
     border: none;
     border-radius: 50%;
     width: 3.6rem;
